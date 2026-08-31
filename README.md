@@ -43,3 +43,6 @@ npm run dev
 ```
 
 The app uses Vinext/React. Main files: `app/page.tsx`, `app/globals.css`, and `app/layout.tsx`.
+
+## GitHub Pages hosting
+The root index.html, app.js, and styles.css serve the existing React design directly. Run `npm ci && npm run build` after source edits and commit the generated files. Only the first tour is available; other routes are marked coming soon. Guide applications save locally, not to a server.

@@ -1,0 +1,1 @@
+export function Progress({value}:{value:number}){return <div data-slot="progress" role="progressbar" aria-label="Tour progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={value}><div style={{width:`${value}%`,height:4,background:"var(--electric)"}}/></div>;}
